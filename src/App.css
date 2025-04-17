@@ -1,0 +1,24 @@
+.nav{
+  display: flex;
+  position: fixed;
+}
+
+.mobile-nav{
+  @apply fixed top-16 text-white left-0 bg-slate-500  w-full h-1/5
+}
+
+.mobile-nav li {
+  @apply w-full h-full text-center border-y-4 ;
+}
+
+.project-desc {
+  @apply absolute left-0 right-0 bottom-[1px] top-0 bg-sky-700 opacity-0 duration-500 hover:opacity-100
+}
+
+.btn{
+  @apply bg-sky-800 px-5 py-2 font-bold border-2 hover:border-emerald-950 rounded
+}
+
+html{
+  scroll-behavior: smooth;
+}
