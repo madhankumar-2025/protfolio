@@ -14,7 +14,7 @@ function Project() {
     <div>
       <section className='flex flex-col py-20 px-5 justify-center bg-cyan-600 text-white' id='project'>
         <div className='w-full flex justify-center'>
-          <div className='flex flex-col py-5 px-8'>
+          <div className='flex flex-col py-5 px-6'>
             <h1 className='text-5xl text-fuchsia-400 mb-5 w-[150px] flex justify-center font-bold'>Project</h1>
             <p className=''>these are some of my projects.I have built thes with React,mern and tailwind css,material ui.check them out.</p>
           </div>

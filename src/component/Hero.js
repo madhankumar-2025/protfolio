@@ -51,9 +51,9 @@ function Hero() {
 
   return (
     <div>
-      <section ref={resumeRef} className='relative flex flex-col md:flex-row py-16 bg-cyan-600 space-x-10 justify-center overflow-hidden'>
-        <div className='md:w-1/2 z-10 flex sm:pl-16 flex-col'>
-          <h1 className='text-white pt-16 text-6xl font-hero-font'>
+      <section ref={resumeRef} className='relative flex flex-col md:flex-row py-16  bg-cyan-600 space-x-10 justify-center overflow-hidden'>
+        <div className='md:w-1/2 z-10 flex sm:pl-16 ml-5 flex-col'>
+          <h1 className='text-white pt-16 sm:text-6xl text-4xl font-hero-font'>
             Hi, I'm <br /><span className="text-cyan-950">MADHANKUMAR</span>
             <p className='text-4xl'>I am <span className='typedtext text-cyan-950'></span></p>
           </h1>
@@ -89,7 +89,7 @@ function Hero() {
         </div>
 
         <div className='relative'>
-          <img className='relative z-10 md:w-2/3 sm:p-4 lg:ml-32' src="https://cdn.pixabay.com/photo/2019/10/09/07/28/development-4536630_640.png" alt="developer" />
+          <img className='relative  md:w-2/3 -ml-5 lg:ml-32' src="https://cdn.pixabay.com/photo/2019/10/09/07/28/development-4536630_640.png" alt="developer" />
         </div>
       </section>
     </div>

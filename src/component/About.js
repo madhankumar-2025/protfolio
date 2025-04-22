@@ -8,7 +8,7 @@ function About() {
                 <img src='https://png.pngtree.com/png-vector/20231018/ourmid/pngtree-business-portfolio-3d-character-illustration-png-image_10204176.png' alt='my details in about content'/>
             </div>
             <div className='md:w-1/2 flex justify-center'>
-            <div className='flex flex-col justify-center pl-14 text-white'>
+            <div className='flex flex-col justify-center pl-14 -ml-8 text-white'>
                 <h1 className='text-4xl text-fuchsia-400 mb-5 w-[180px] font-bold'>About me</h1>
                 <p className='pb-5'>Hi, I'm Madhankumar , i'm frontend developer with a focus building dynamic and responsive web applicatins using react.js.</p> 
                 <p className='pb-5'>I've honed my skills in html,css,javascript and react.as well as intergrating APIs to create seamless and interactive web expreiences.</p> 

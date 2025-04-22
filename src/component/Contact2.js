@@ -25,7 +25,7 @@ function Contact2() {
         <>
             <div className='flex max-w-screen' id='contact'>
                 <div className='flex flex-col md:flex-row md:space-x-6 justify-around space-y-6 md:space-y-0 bg-cyan-800 w-full max-w-full px-8 sm:p-12 text-white overflow-hidden'>
-                    <div className='flex flex-col space-y-6 justify-around'>
+                    <div className='flex flex-col space-y-6 justify-around sm:pt-6'>
                         <div>
                             <h1 className='font-bold text-5xl text-fuchsia-400 tracking-wide'>Contact Us</h1>
                             <p className='pt-6 text-cyan-100 text-sm '>if you want to discuss more in details,please contact me</p>
