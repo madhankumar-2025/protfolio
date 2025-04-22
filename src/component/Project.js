@@ -23,7 +23,7 @@ function Project() {
           <div className='flex flex-col justify-evenly md:flex-row px-10 gap-5'>
             {projects.map((project)=>(
             <div className='relative'>
-              <img className='h-[300px] w-[500px]' src={ecomIamge} alt='image' />
+              <img className='h-[300px] w-[500px]' src={ecomIamge} alt='project details in cotent' />
               <div className='project-desc flex items-center'>
                 <p className='text-center px-6 py-5'>{project.discription} </p><br/>
                 <div className='flex justify-center items-center '><a target='blank' className='btn ' href={project.link}>view</a></div>

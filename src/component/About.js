@@ -5,7 +5,7 @@ function About() {
     <div>  
         <section className='flex flex-col md:flex-row bg-cyan-800 px-5' id='about'>
             <div className='md:w-1/3 flex sm:justify-center py-3 m-10'>
-                <img src='https://png.pngtree.com/png-vector/20231018/ourmid/pngtree-business-portfolio-3d-character-illustration-png-image_10204176.png' alt='image'/>
+                <img src='https://png.pngtree.com/png-vector/20231018/ourmid/pngtree-business-portfolio-3d-character-illustration-png-image_10204176.png' alt='my details in about content'/>
             </div>
             <div className='md:w-1/2 flex justify-center'>
             <div className='flex flex-col justify-center pl-14 text-white'>
