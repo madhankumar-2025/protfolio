@@ -34,11 +34,11 @@ function Hero() {
   const generatePDF = async () => {
     const imageUrl = 'https://i.ibb.co/3YRJSXHG/Whats-App-Image-2025-03-21-at-4-48-14-PM.jpg';
     const img = new Image();
-    img.crossOrigin = 'anonymous'; // Enable CORS
+    img.crossOrigin = 'anonymous'; 
   
     img.onload = () => {
       const pdf = new jsPDF('p', 'mm', 'a4');
-      const imgWidth = 210; // A4 width in mm
+      const imgWidth = 210; 
       const imgHeight = (img.height * imgWidth) / img.width;
   
       pdf.addImage(img, 'JPEG', 0, 0, imgWidth, imgHeight);

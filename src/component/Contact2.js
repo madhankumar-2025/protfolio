@@ -2,8 +2,7 @@ import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
 function Contact2() {
-    
-    const form = useRef(); // This references the form
+    const form = useRef(); 
 
     const sendEmail = (e) => {
         e.preventDefault();
